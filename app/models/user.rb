@@ -5,5 +5,4 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :trackable, :validatable
 
   has_many :links
-  add_users
 end
